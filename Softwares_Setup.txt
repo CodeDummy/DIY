@@ -1,0 +1,6 @@
+Software Links
+
+Xilinx Vivado      :    the tool chain for the FPGA - https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html
+VS Code            :    https://code.visualstudio.com/
+Anaconda Python    :    https://www.anaconda.com/distribution/
+Git                :    https://git-scm.com/download/win
