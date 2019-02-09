@@ -1,0 +1,43 @@
+# DIY
+
+#RESOURCE LIST
+
+Zed board documentation - http://zedboard.org/product/zedboard;	
+Zynq Documentation - https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html#documentation;
+Zynq Book - http://www.zynqbook.com/
+
+
+
+Abstract 
+
+Develop a board support package (BSP) for the Zedboard.
+Features
+
+	• Every major peripheral must be accessible with the BSP
+	• PC - Board commnication can be through USB/UART in the beginning and later through ethernet.
+	• PC app should be able to communicate with all the peripherals on the Zedboard.
+	• Communication interface must be designed and standardized to incorporate future application projects on the zedboard.
+	
+	
+	
+	#test
+    
+	
+	
+
+Pre-work
+
+Set up VIVADO, VS-Code (with Live share) , Anaconda (python)
+Set up a Github Repo(All docs regarding the project must be stored here)
+Go through tutorials for Vivado/Zynq
+
+
+
+Task 1
+
+Develop a communication interface from the PC to the board. This can be USB/Serial port in the beginning. Later we need an ethernet interface (some kind of client server). I want the PC side to be Python based. On the zedboard we can have a c based app running. 
+
+Subtask
+
+	1. Design the protocol and frame structure. How to address each peripheral.The interface USB or UART or ethernet should be abstracted away from the user.
+	
