@@ -6,16 +6,13 @@ Zed board documentation - http://zedboard.org/product/zedboard;
 Zynq Documentation - https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html#documentation;
 Zynq Book - http://www.zynqbook.com/
 
-
-
-
 #Abstract 
 
 Develop a board support package (BSP) for the Zedboard.
 Features
 
 	• Every major peripheral must be accessible with the BSP
-	• PC - Board commnication can be through USB/UART in the beginning and later through ethernet.
+	• PC - Board communication can be through USB/UART in the beginning and later through ethernet.
 	• PC app should be able to communicate with all the peripherals on the Zedboard.
 	• Communication interface must be designed and standardized to incorporate future application projects on the zedboard.
     
@@ -24,9 +21,11 @@ Features
 
 Pre-work
 
-Set up VIVADO, VS-Code (with Live share) , Anaconda (python)
+Set up VIVADO, VS-Code (with Live share) , Anaconda (python) , Git
 Set up a Github Repo(All docs regarding the project must be stored here)
+
 Go through tutorials for Vivado/Zynq
+
 
 
 

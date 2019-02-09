@@ -3,5 +3,15 @@ Software Links
 Xilinx Vivado                           :    https://www.xilinx.com/products/design-tools/vivado/vivado-webpack.html
 VS Code                                 :    https://code.visualstudio.com/
 Microsoft python extension for VS Code  :    https://marketplace.visualstudio.com/items?itemName=ms-python.python
+VS Code Live share                      :    https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack
 Anaconda Python                         :    https://www.anaconda.com/distribution/
 Git                                     :    https://git-scm.com/download/win
+
+
+
+Notes
+
+Anaconda Python version 3.6.8
+Github must be integrated in VS Code 
+Live Sharre needs to be tested 
+
