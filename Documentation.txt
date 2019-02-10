@@ -11,29 +11,40 @@ Zynq Book - http://www.zynqbook.com/
 Develop a board support package (BSP) for the Zedboard.
 Features
 
-	• Every major peripheral must be accessible with the BSP
+	• Every major peripheral must be accessible with the BSP 
 	• PC - Board communication can be through USB/UART in the beginning and later through ethernet.
 	• PC app should be able to communicate with all the peripherals on the Zedboard.
 	• Communication interface must be designed and standardized to incorporate future application projects on the zedboard.
     
 	
-	
-
 Pre-work
 
-Set up VIVADO, VS-Code (with Live share) , Anaconda (python) , Git
-Set up a Github Repo(All docs regarding the project must be stored here)
+1.Set up VIVADO, VS-Code (with Live share) , Anaconda (python) , Git
+2.Set up a Github Repo(All docs regarding the project must be stored here) including this documentation file.
+3.Go through tutorials for Vivado/Zynq 
+4.VS Code tutorilas
+5.Python Tutorials if needed.
+6.Decide on HDL to be used. Verilog or VHDL?
 
-Go through tutorials for Vivado/Zynq
 
+General Notes for Software development.
+
+Source code for PC app and the Zed Board must be version controlled on GitHub.
+Use 'Black' code formatter for Python code base.
 
 
 
 Task 1
 
-Develop a communication interface from the PC to the board. This can be USB/Serial port in the beginning. Later we need an ethernet interface (some kind of client server). I want the PC side to be Python based. On the zedboard we can have a c based app running. 
+Develop a communication interface from the PC to the board. This can be USB/Serial port in the beginning. Later we need an ethernet interface (some kind of client server).
 
 Subtask
 
-	1. Design the protocol and frame structure. How to address each peripheral.The interface USB or UART or ethernet should be abstracted away from the user.
+Phase 1
+1. Design the protocol and frame structure. How to address each peripheral.The interface USB/UART or ethernet should be abstracted away from the user.
+2. Develop a basic PC CLI App. We could try debugging with an arduino to get the serial communication working. Libraries : PySerial , for communication. Click ,for CLI.
+
+Phase 2
+GUI for the PC APP.
 	
+Task 2
