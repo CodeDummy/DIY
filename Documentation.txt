@@ -2,13 +2,14 @@
 
 #RESOURCE LIST
 
-Zed board documentation - http://zedboard.org/product/zedboard;	
-Zynq Documentation - https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html#documentation;
-Zynq Book - http://www.zynqbook.com/
+Zed board documentation  				:		 http://zedboard.org/product/zedboard;	
+Zynq Documentation 						:		 https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html#documentation;
+Zynq Book 								:		 http://www.zynqbook.com/
 
 #Abstract 
 
 Develop a board support package (BSP) for the Zedboard.
+
 Features
 
 	• Every major peripheral must be accessible with the BSP 
@@ -22,7 +23,7 @@ Pre-work
 1.Set up VIVADO, VS-Code (with Live share) , Anaconda (python) , Git
 2.Set up a Github Repo(All docs regarding the project must be stored here) including this documentation file.
 3.Go through tutorials for Vivado/Zynq 
-4.VS Code tutorilas
+4.VS Code tutorilas - https://realpython.com/python-development-visual-studio-code/#extensions-for-python-development
 5.Python Tutorials if needed.
 6.Decide on HDL to be used. Verilog or VHDL?
 
